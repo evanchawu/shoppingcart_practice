@@ -46,7 +46,7 @@
             <ul class="dropdown-menu" role="menu"> <!-- 控制台這個li 下面的列表 -->  
               <li><%= link_to '更新個人資料',edit_user_registration_path  %> </li>
               <li class="divider"></li>
-              <li><%= link_to '登出',edit_user_registration_path, method: :delete  %>  </li>
+              <li><%= link_to '登出',destroy_user_session_path, method: :delete  %>  </li>
             </ul>
           </li>
         <% else %> <!-- 如果還沒登入顯示 註冊 登入 -->

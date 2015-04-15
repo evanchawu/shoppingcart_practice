@@ -1,0 +1,2 @@
+module Controlbar::DashboardHelper
+end
